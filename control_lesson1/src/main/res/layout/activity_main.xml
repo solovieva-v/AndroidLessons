@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Стих№1 Весенняя гроза Люблю грозу в начале мая, Когда весенний, первый гром, как бы резвяся и играя, Грохочет в небе голубом.  Гремят раскаты молодые, Вот дождик брызнул, пыль летит, Повисли перлы дождевые, И солнце нити золотит.  С горы бежит поток проворный, В лесу не молкнет птичий гам, И гам лесной и шум нагорный - Все вторит весело громам.  Ты скажешь: ветреная Геба, Кормя Зевесова орла, Громокипящий кубок с неба, Смеясь, на землю пролила." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Стих№2 Silentium! Молчи, скрывайся и таи И чувства и мечты свои — Пускай в душевной глубине Встают и заходят оне Безмолвно, как звезды в ночи, — Любуйся ими — и молчи.  Как сердцу высказать себя? Другому как понять тебя? Поймет ли он, чем ты живешь? Мысль изреченная есть ложь — Взрывая, возмутишь ключи, Питайся ими — и молчи…  Лишь жить в себе самом умей — Есть целый мир в душе твоей Таинственно-волшебных дум — Их оглушит наружный шум, Дневные разгонят лучи — Внимай их пенью — и молчи!.." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tut_2"
+                tools:srcCompat="@drawable/tut_2" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
