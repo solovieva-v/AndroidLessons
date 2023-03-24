@@ -33,7 +33,7 @@ public class MultiMain extends AppCompatActivity {
     }
     public void onClickNewActivity(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("key", "MIREA - Шурчков Владислав Дмитриевич");
+        intent.putExtra("key", "MIREA - Соловьева Вероника Антоновна");
         startActivity(intent);
     }
 
