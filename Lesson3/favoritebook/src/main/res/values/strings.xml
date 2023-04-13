@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FavoriteBook</string>
+    <string name="name">Любимая книга разработчика – НАЗВАНИЕ КНИГИ</string>
+    <string name="book">Переход на Book</string>
+    <string name="share">Переход на Share</string>
+    <string name="vvod">Вывод названия</string>
+</resources>
