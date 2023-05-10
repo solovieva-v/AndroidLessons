@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.solovievava.lesson4'
+    namespace 'ru.mirea.solovievava.musicplayer'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.solovievava.lesson4"
+        applicationId "ru.mirea.solovievava.musicplayer"
         minSdk 26
         targetSdk 33
         versionCode 1
