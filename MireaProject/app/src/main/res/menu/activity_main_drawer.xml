@@ -24,5 +24,18 @@
             android:id="@+id/nav_data"
             android:icon="@android:drawable/ic_menu_edit"
             android:title="DataSource" />
+        <item
+            android:id="@+id/nav_compos"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Сompos" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="My audio" />
+        <item
+            android:id="@+id/filesFragment"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="fragment_file" />
+
     </group>
 </menu>
